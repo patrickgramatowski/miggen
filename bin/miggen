@@ -1,0 +1,29 @@
+#!/bin/bash
+
+working_dir=`pwd`
+miggen_config=$working_dir/config/miggen/miggen_config.txt
+
+commands=("rails" "open" "generate")
+
+
+
+# if [ "rails" == $1 ]; then
+  # touch miggen_config
+  # open miggen_config
+# fi
+
+# open file, 
+# put diagram to the file
+# miggen generate migration -> tworzy migracje
+# adapter dla kazdego diagramu
+# tworzy tabele i kolumny -> czytamy file -> slowa kluczowe  (table string id ...)
+# wartosci
+
+
+#  table user
+#    id number
+#    name string
+#    weight float
+
+# miggen generate migration -> bierze zawartosc dzieli linie i slowa/wartosci
+# uzywa jako argumenty dla buildera
