@@ -2,6 +2,12 @@
 
 require "miggen"
 
+require "miggen/migration_builder"
+require "miggen/migration_director"
+require "miggen/migration"
+
+require "miggen/table_builder"
+
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"
